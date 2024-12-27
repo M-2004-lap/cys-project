@@ -2,7 +2,7 @@
 final-cys-project(haking owasp juice shop)
 1-Enumeration attack 
 by using ffuf to get all possible username to the admin user
-code(ffuf -u http://localhost:3000/Fuzz -w common.txt)
+code(ffuf -u http://localhost:3000/#/FUZZ -w common.txt)
 ![صورة واتساب بتاريخ 2024-12-27 في 09 17 42_b3c80f73](https://github.com/user-attachments/assets/769cfad7-0597-4fe5-a5b7-56afed5a6107)
 ![صورة واتساب بتاريخ 2024-12-27 في 09 19 35_85cf8d0b](https://github.com/user-attachments/assets/73bf941f-3e82-45b2-95c1-241c6d2e0b62)
 after this try all possible outcomes until get(username=administration)
